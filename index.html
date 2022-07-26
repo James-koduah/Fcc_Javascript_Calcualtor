@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java-Calculator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="calculator-grid">
+        <div id="output">
+            <div id="all"></div>
+            <div id="display">0</div>
+        </div>
+        <button id='clear' onclick="clearAll()" class="span-two">AC</button>
+        <button onclick="del()" >DEL</button>
+        <button onclick="signs(this)" id='divide' >/</button>
+        <button onclick="input(this)" id='one'>1</button>
+        <button onclick="input(this)" id='two'>2</button>
+        <button onclick="input(this)" id='three'>3</button>
+        <button onclick="signs(this)" id='multiply'>*</button>
+        <button onclick="input(this)" id='four'>4</button>
+        <button onclick="input(this)" id='five'>5</button>
+        <button onclick="input(this)" id='six'>6</button>
+        <button onclick="signs(this)" id='add'>+</button>
+        <button onclick="input(this)" id='seven'>7</button>
+        <button onclick="input(this)" id='eight'>8</button>
+        <button onclick="input(this)" id='nine'>9</button>
+        <button onclick="signs(this)" id='subtract'>-</button>
+        <button onclick="input(this)" id='decimal'>.</button>
+        <button onclick="input(this)" id='zero'>0</button>
+        <button onclick="equalTo()" id="equals" class="span-two">=</button>
+    </div>
+    <script  src="app.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
